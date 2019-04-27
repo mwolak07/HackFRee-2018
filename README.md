@@ -4,6 +4,7 @@ Description:
 	- OCR app for converting hand writing to text using a camera
 	- Custom OCR model trained on modified versions of MNIST and EMNIST --> abandoned, accuracy on real-world images too low
 	- Tessaract OCR module --> pre-trained OCR model (part of openCV). Allowed for better accuracy
+	- OpenCV noise filtering used because openCV requires relatively clean images
 	- Firebase was used to send image to computer for processing, and send response back to phone
 
 Environment:
@@ -19,6 +20,7 @@ Environment:
 
 *pip might default to python 2, in that case, use pip3
 *install tensorflow-gpu for processing on the gpu
+*Cuda and cuDNN need to be installed for processing on an Nvidia GPU
 
 Tesseract install for windows:
     - https://github.com/UB-Mannheim/tesseract/wiki
