@@ -1,4 +1,6 @@
-2018 HackFRee district-wide hackathon project
+# 2018 HackFRee district-wide hackathon project
+
+Overview: Android app with python backend used for OCR in images.
 
 Description:
 	- OCR app for converting hand writing to text using a camera
